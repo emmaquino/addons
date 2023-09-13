@@ -1,1 +1,9 @@
 # Odoo Custom Addons
+
+## Automobile Fleet Management 
+The Automobile App module is a solution designed to manage information related to vehicles, whether in a car rental company or a fleet management context. It provides features for tracking data such as the model, brand, status, mileage, and other important vehicle details. This module facilitates efficient management of a vehicle fleet, including scheduling maintenance and tracking vehicle availability. Additionally, it can be integrated with other Odoo modules for comprehensive business management.
+
+## Library Management
+The Library App module is a comprehensive solution for managing library operations efficiently. It covers various aspects of library management, including cataloging books, tracking members, managing loans and returns, and generating reports. This module helps libraries organize their collections, provide services to members, and keep records up to date. It also includes features for handling fines, reservations, and maintaining member details. Overall, the module streamlines library processes and enhances the user experience for both librarians and users.
+### Library Member - Technical Module
+The Library Member module has been created as part of the Library project with the aim of managing library member information. Library members will have the ability to borrow books and will have a library card to be presented when borrowing. Key member data will include the library card number, along with some personal information such as email address and physical address. This module is designed to facilitate the administration of library member information, enabling a more efficient process for lending and user tracking within the library.
