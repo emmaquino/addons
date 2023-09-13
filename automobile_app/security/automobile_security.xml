@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <!-- Automobile User Group -->
+        <record id="automobile_group_user" model="res.groups">
+            <field name="name">User</field>
+            <field name="category_id" ref="base.module_category_mitur_automobile"/> <!--El nombre de la subcategoria en "category" y en la referencia de category_id deben de iguales. Aunque es el nombre que se define en "category_id" es el que define el nombre de la permisologia en el apartado de Users.-->
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <!-- Automobile Manager Group -->
+        <record id="automobile_group_manager" model="res.groups">
+            <field name="name">Manager</field>
+            <field name="category_id" ref="base.module_category_mitur_automobile"/>
+            <field name="implied_ids" eval="[(4, ref('automobile_group_user'))]"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+    </data>
+</odoo>

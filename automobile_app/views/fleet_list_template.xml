@@ -1,0 +1,16 @@
+<odoo>
+    <template id="fleet_list_template" name="Fleet List">
+        <div id="wrap" class="container">
+            <h1>Fleet</h1>
+            <t t-foreach="vehicle" t-as="auto">
+                <div class="row">
+                    <!-- <img t-field="auto.image"/> -->
+                    <span t-field="auto.vin"/>
+                    <span t-field="auto.make"/>
+                    <span t-field="auto.model"/>
+                    <span t-field="auto.year"/>
+                </div>
+            </t>
+        </div>
+    </template>
+</odoo>

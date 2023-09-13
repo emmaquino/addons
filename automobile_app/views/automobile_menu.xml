@@ -1,0 +1,16 @@
+<odoo>
+
+    <!-- Automobile app Menu -->
+    <menuitem id="menu_automobile" name="Automobile" />
+
+    <!-- Action to open the Fleet list -->
+    <record id="action_automobile_vehicle" model="ir.actions.act_window">
+        <field name="name">Fleet Vehicles</field>
+        <field name="res_model">automobile.vehicle</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu item to open the Fleet list -->
+    <menuitem id="menu_automobile_vehicle" name="Fleet" parent="menu_automobile" action="action_automobile_vehicle"/>
+
+</odoo>

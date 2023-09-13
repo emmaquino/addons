@@ -1,0 +1,3 @@
+<odoo>
+    <delete model="library.book" id="library_app.library_book_3_c76c3fcc"/>
+</odoo>

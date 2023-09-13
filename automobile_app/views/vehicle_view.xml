@@ -1,0 +1,60 @@
+<odoo>
+    <!--Esta es la vista Form-->
+    <record id="view_form_vehicle" model="ir.ui.view">
+        <field name="name">Vehicle Form</field>
+        <field name="model">automobile.vehicle</field>
+        <field name="arch" type="xml">
+            <form string="Vehicle">
+                <group name="group_top">
+                    <group name="group_one">
+                        <field name="vin"/>
+                        <field name="image" widget="image"/>
+                    </group>
+
+                    <group name="group_two">
+                        <field name="make"/>
+                        <field name="model"/>
+                        <field name="year"/>
+                    </group>
+                    
+                    <group name="group_three">
+                        <field name="mileage"/>
+                        <field name="added_by"/>
+                        <field name="date_added"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+        
+    </record>
+
+    <!--Vista de arbol.-->
+    <record id="view_tree_vehicle" model="ir.ui.view">
+        <field name="name">Fleet List</field>
+        <field name="model">automobile.vehicle</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="vin"/>
+                <field name="model"/>
+                <field name="make"/>
+                <field name="year"/>
+                <field name="mileage"/>
+                <field name="image" widget="image"/>
+                <field name="added_by"/>
+                <field name="date_added"/>
+            </tree>
+        </field>
+    </record>
+
+    <!--Vista de busqueda-->
+    <record id="view_search_vehcile" model="ir.ui.view">
+        <field name="name">Vehicle Filter</field>
+        <field name="model">automobile.vehicle</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="model"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

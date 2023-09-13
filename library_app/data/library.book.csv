@@ -1,0 +1,9 @@
+id,name,date_published,author_ids/id
+library_book_1_27188370,Jujutsu Kaisen,"2023-03-05","base.partner_admin"
+library_book_3_c76c3fcc,kjlfksdjflksdjf,"2003-05-05","base.partner_admin"
+library_book_4_6c7dbc6a,Odoo Development Essentials 11,"2023-05-06","base.partner_admin"
+library_book_5_bd7679cf,Odoo 11 Development Cookbook,"2023-06-06","res_partner_9_d4ea4bd3"
+book_odc11,Odoo 11 Development Cookbook,,"hr.res_partner_admin_private_address,res_partner_31_6d64e832,res_partner_13_e47c4ac7"
+,Alicia En El Pais De Las Marvillas,"1998-05-05","base.partner_admin"
+,El Principito,"1995-04-05","res_partner_9_d4ea4bd3"
+,1984,"1996-06-03","base.partner_admin"
